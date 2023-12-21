@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>github user search</title>
+</head>
+
+<body>
+    <header>
+        <div class="head">devfinder</div>
+    </header>
+
+    <div class="search">
+        <div class="searchText">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" id="nameInp" placeholder="Github name...">
+        </div>
+        <div class="searchBtn">Search</div>
+    </div>
+
+    <div class="resGit">
+        <div class="gitHead">
+            <div class="gitImg"></div>
+            <div class="gitInfo">
+                <div class="gitUser">Name</div>
+                <div class="gitUserName"><a href="">@username</a></div>
+                <div class="gitJoinedDate">Data</div>
+            </div>
+        </div>
+
+        <div class="gitFact">
+            <div class="gitBio">Bio</div>
+
+            <div class="gitRepo">
+                <div class="repos">
+                    <div class="repoHeading">Repos</div>
+                    <div class="repoTotal">0</div>
+                </div>
+                <div class="Followers">
+                    <div class="followerHeading">Followers</div>
+                    <div class="followerTotal">0</div>
+                </div>
+                <div class="following">
+                    <div class="followingHeading">Following</div>
+                    <div class="followingTotal">0</div>
+                </div>
+            </div>
+
+            <div class="gitSocial">
+                <div class="gitLocation">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="gitLocations">Location</p>
+                </div>
+                <div class="gitTwitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    <p class="gitTwitter">Twitter</p>
+                </div>
+                <div class="gitLink">
+                    <i class="fa-solid fa-link"></i>
+                    <p class="gitSite">https://github.blog</p>
+                </div>
+                <div class="gitCompany">
+                    <i class="fa-solid fa-building"></i>
+                    <p class="gitCompnies">Company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
